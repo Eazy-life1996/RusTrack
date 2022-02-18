@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>RusTrack</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__block">
+      <a href="" class="header__logo">
+        <img src="image/logo.svg" alt="Логотип" class="header__img">
+      </a>
+      <p class="header__p">
+        производство и продажа
+        автоспецтехники
+      </p>
+      <details class="header__details">
+        <summary>
+          Время работы
+          <img class="header__svg" src="/image/btn-down.svg" alt="">
+        </summary>
+        <p class="header__p">
+          Пн-пт: с 8:00 до 18:00
+        </p>
+        <p class="header__p">
+          Сб-вс: с 10:00 до 16:00
+        </p>
+      </details>
+      <p class="header__light-p header__light-p--first">
+        г. Нижний Новгород <br class="header__space"> ул. Торфяная, 35
+      </p>
+      <p class="header__light-p">
+        Для регионов: 8 (800) 77-77-210 <br>
+        Нижний Новгород: 8 (831) 225-00-55
+      </p>
+      <a href="tel:88007777210" class="header__link-phone"></a>
+    </div>
+    <div class="header__block">
+      <button class="header__button">
+        <div class="header__block-span">
+          <span class="header__span"></span>
+          <span class="header__span"></span>
+          <span class="header__span"></span>
+        </div>
+        <p class="header__button-p">Каталог</p>
+      </button>
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#" class="header__link">
+            О нас
+            <img src="image/btn-down.svg" alt="" class="header__svg">
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">
+            Медиа
+            <img src="image/btn-down.svg" alt="" class="header__svg">
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">
+            Сервис
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">
+            Новости
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link">
+            Контакты
+          </a>
+        </li>
+      </ul>
+      <ul class="header__list-second">
+        <li class="header__item">
+          <button class="header__btn">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2737 0.25C5.18548 0.25 0.25 5.29049 0.25 11.5083C0.25 17.726 5.18548 22.7665 11.2737 22.7665C13.9167 22.7665 16.3425 21.8166 18.2415 20.2328L25.8237 27.4366C26.287 27.8768 27.0121 27.85 27.4431 27.3768C27.8741 26.9037 27.848 26.1632 27.3846 25.723L19.858 18.5721C21.3839 16.6405 22.2974 14.1833 22.2974 11.5083C22.2974 5.29049 17.362 0.25 11.2737 0.25ZM2.54167 11.5083C2.54167 6.58307 6.45113 2.59043 11.2737 2.59043C16.0963 2.59043 20.0057 6.58307 20.0057 11.5083C20.0057 16.4335 16.0963 20.4261 11.2737 20.4261C6.45113 20.4261 2.54167 16.4335 2.54167 11.5083Z" fill="black"/>
+            </svg>
+          </button>
+          <input class="header__input" type="search">
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__linl-img">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.550781 2.4998C0.550781 2.11321 0.864182 1.7998 1.25078 1.7998H6.21068C6.54472 1.7998 6.83222 2.03583 6.89728 2.36348L8.02626 8.04965L28.7508 8.0496C28.9592 8.0496 29.1568 8.14249 29.2898 8.30299C29.4228 8.46349 29.4773 8.67491 29.4386 8.87972L27.4546 19.367L27.4536 19.3722C27.3087 20.1075 26.9117 20.7691 26.3306 21.2407C25.7512 21.7109 25.0258 21.962 24.2806 21.9493L12.0202 21.9493C11.2749 21.9621 10.5495 21.711 9.97007 21.2408C9.38901 20.7693 8.99201 20.1077 8.84708 19.3725L8.84701 19.3722L6.77251 8.92387C6.76625 8.89946 6.76128 8.87453 6.75767 8.84916L5.636 3.1998H1.25078C0.864182 3.1998 0.550781 2.8864 0.550781 2.4998ZM8.30423 9.44965L10.2204 19.1006L10.2206 19.1016C10.3025 19.5172 10.5266 19.8894 10.8522 20.1537C11.1777 20.4178 11.5841 20.5575 12.0002 20.5495L12.0138 20.5492V20.5493L24.2869 20.5493H24.3004L24.3004 20.5494C24.7165 20.5575 25.1229 20.4178 25.4484 20.1536C25.7734 19.8899 25.9973 19.5186 26.0796 19.1039L26.08 19.1015L27.9059 9.4496L8.30423 9.44965ZM19.0008 17.4998C19.0008 17.7759 18.7769 17.9998 18.5008 17.9998C18.2246 17.9998 18.0008 17.7759 18.0008 17.4998C18.0008 17.2237 18.2246 16.9998 18.5008 16.9998C18.7769 16.9998 19.0008 17.2237 19.0008 17.4998ZM12.4244 28.7498C13.8051 28.7498 14.9244 27.6305 14.9244 26.2498C14.9244 24.8691 13.8051 23.7498 12.4244 23.7498C11.0437 23.7498 9.92437 24.8691 9.92437 26.2498C9.92437 27.6305 11.0437 28.7498 12.4244 28.7498ZM23.5899 28.7498C24.9706 28.7498 26.0899 27.6305 26.0899 26.2498C26.0899 24.8691 24.9706 23.7498 23.5899 23.7498C22.2092 23.7498 21.0899 24.8691 21.0899 26.2498C21.0899 27.6305 22.2092 28.7498 23.5899 28.7498Z" fill="black"/>
+            </svg>
+          </a>
+        </li>
+        <li class="header__item">
+          <a href="#" class="header__link-img">
+            <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.028 3.16372L17.0282 3.1636C17.6979 2.45941 18.4912 1.90275 19.3617 1.52365C20.2322 1.14459 21.1638 0.95 22.1038 0.95C23.0438 0.95 23.9755 1.14459 24.8459 1.52365C25.7165 1.90275 26.5098 2.45941 27.1795 3.1636L27.1797 3.16384C27.8498 3.86778 28.3831 4.70544 28.7476 5.62981C29.112 6.55423 29.3 7.54618 29.3 8.54869C29.3 9.5512 29.112 10.5431 28.7476 11.4676C28.3831 12.3919 27.8498 13.2296 27.1797 13.9335L27.1796 13.9337L25.6583 15.5325L14.9996 26.7345L4.34094 15.5325L2.81963 13.9337C1.46612 12.5111 0.7 10.5747 0.7 8.54869C0.7 6.52268 1.46612 4.58624 2.81963 3.16372C4.17202 1.74239 5.99862 0.950807 7.89541 0.950807C9.79221 0.950807 11.6188 1.74239 12.9712 3.16372L14.4925 4.76258C14.6246 4.90144 14.8079 4.98005 14.9996 4.98005C15.1913 4.98005 15.3746 4.90144 15.5067 4.76258L17.028 3.16372Z" stroke="black" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+</body>
+</html>

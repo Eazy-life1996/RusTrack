@@ -1,0 +1,118 @@
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.header__block {
+  padding-right: 14px;
+  padding-left: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.header__block:last-child {
+  padding-top: 10px;
+  padding-bottom: 0;
+  border-top: 1px solid $yellow;
+}
+
+.header__list-second {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header__light-p, .header__details, .header__p, .header__list, .header__input {
+  display: none;
+}
+
+.header__button {
+  background-color: $yellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 138px;
+  padding: 9px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header__button-p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.header__span {
+  width: 18px;
+  height: 2px;
+  background-color: $black;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.header__span:last-child {
+  margin-bottom: 0;
+}
+
+.header__link-phone {
+  background-color: $yellow;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  position: relative;
+}
+
+.header__link-phone::before {
+  content: url(../../image/phone.svg);
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  top: 9px;
+  left: 9px;
+}
+
+@media (min-width:$tablet-width) {
+  .header {
+    padding-top: 21px;
+  }
+
+  .header__block {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .header__light-p {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    color: $text-grey;
+    margin-top: 7px;
+  }
+
+  .header__input {
+    display: block;
+    border: 1px solid $yellow;
+    border-radius: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 312px;
+    background-image: url(../../image/search.svg);
+    background-repeat: no-repeat;
+    background-size: 19px 19px;
+    background-position: 280px 6px;
+  }
+
+  .header__btn {
+    display: none;
+  }
+}
+
+@media (min-wdith: $desktop-width) {
+}
